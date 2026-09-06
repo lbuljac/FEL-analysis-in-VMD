@@ -25,6 +25,8 @@ Global FEL Analysis GUI window should appear on the screen, with three options w
 
 Enter the atom selection text of your simulation system. Set the minPts parameter at the suggested value. Set the eps parameter at a small value, try 0.05. Then click the "Set DBSCAN parameters" to generate the k-NN distance plot. Chosen value of eps parameter showed as the red dashed line should intersect the curve roughly at the knee. Then click at the "Run Analysis" button which does the FEL analysis of your simulation replicas and generates accompanying FEL plot as RG-RMSD colored contour map.
 
+<img width="467" height="149" alt="image" src="https://github.com/user-attachments/assets/bb423303-4ac3-42f4-bdae-c19a6325f347" />
+
 Here is an example for monomer of protein with 3 simulation replicas, eps = 0.05 and minPts = 53.
 Generated k-NN distance plot with "good" DBSCAN parameters:
 
