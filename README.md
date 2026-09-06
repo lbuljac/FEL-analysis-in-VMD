@@ -13,19 +13,19 @@ source "full-path-to-downloaded-rep/vmd_global_fel_analysis/global_fel_gui.tcl"
 cd full-path-to-downloaded-rep/vmd_global_fel_analysis
 ```
 
-Global FEL Analysis GUI window should appear on the screen, with three options which should be adjusted according to your simulation system;\
+Global FEL Analysis GUI window should appear on the screen, with three options which should be adjusted according to your simulation system
 
 **Atom Selection** - selection text accepted by VMD, for example, *protein and name CA*\
 **eps** - maximum distance radius around any given data point\
 **minPts** - minimum number of data points required within an eps radius to define a dense region\
 
-**Suggestion**: Set a value of minPts at around 1 - 2 % of the total number of frames in all MD simulation replicas which will be analyzed.\
+**Suggestion**: Set a value of minPts at around 1 - 2 % of the total number of frames in all MD simulation replicas which will be analyzed.
 
 ## Starting the FEL analysis
 
-Enter the atom selection text of your simulation system. Set the minPts parameter at the suggested value. Set the eps parameter at a small value, try 0.05. Then click the "Set DBSCAN parameters" to generate the k-NN distance plot. Chosen value of eps parameter showed as the red dashed line should intersect the curve roughly at the knee. Then click at the "Run Analysis" button which does the FEL analysis of your simulation replicas and generates accompanying FEL plot as RG-RMSD colored contour map.\
+Enter the atom selection text of your simulation system. Set the minPts parameter at the suggested value. Set the eps parameter at a small value, try 0.05. Then click the "Set DBSCAN parameters" to generate the k-NN distance plot. Chosen value of eps parameter showed as the red dashed line should intersect the curve roughly at the knee. Then click at the "Run Analysis" button which does the FEL analysis of your simulation replicas and generates accompanying FEL plot as RG-RMSD colored contour map.
 
-Here is an example for monomer of protein with 3 simulation replicas, eps = 0.05 and minPts = 53.\
+Here is an example for monomer of protein with 3 simulation replicas, eps = 0.05 and minPts = 53.
 Generated k-NN distance plot with "good" DBSCAN parameters:
 
 ![](kNN_distance_plot.png)
