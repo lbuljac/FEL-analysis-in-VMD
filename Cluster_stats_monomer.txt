@@ -1,0 +1,2 @@
+cluster	population	RMSD_mean	Rg_mean	FE
+0	3531	1.5433832840148398	21.186782486882368	0.0
