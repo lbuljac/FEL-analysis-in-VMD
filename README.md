@@ -42,6 +42,6 @@ This plugin is developed for 3 molecular dynamics simulation replicas of one pro
 
 ## Requirements
 
-Visual Molecular Dynamics (VMD) software from Theoretical and Computational Biophysics Group
-Python
+Visual Molecular Dynamics (VMD) software from Theoretical and Computational Biophysics Group \
+Python \
 Python packages: numpy, pandas, scipy, scikit-learn and matplotlib
