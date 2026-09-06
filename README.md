@@ -4,7 +4,7 @@ FEL analysis is usually performed to gain better sampling of rare states and smo
 
 ## Loading the plugin in VMD
 
-Download this repository: [📦 Global FEL Analysis v1.0.0](https://github.com/lbuljac/vmd_global_fel_analysis/releases/latest)\
+Download this repository: [📦 Global FEL Analysis v1.0.0](https://github.com/lbuljac/FEL-analysis-in-VMD/releases/tag/v1.0.0)\
 Open the Tk console and write the following commands:
 
 ``` tcl
