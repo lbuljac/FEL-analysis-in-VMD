@@ -17,7 +17,7 @@ Global FEL Analysis GUI window should appear on the screen, with three options w
 
 **Atom Selection** - selection text accepted by VMD, for example, *protein and name CA*\
 **eps** - maximum distance radius around any given data point\
-**minPts** - minimum number of data points required within an eps radius to define a dense region\
+**minPts** - minimum number of data points required within an eps radius to define a dense region
 
 **Suggestion**: Set a value of minPts at around 1 - 2 % of the total number of frames in all MD simulation replicas which will be analyzed.
 
