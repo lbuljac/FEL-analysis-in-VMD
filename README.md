@@ -39,3 +39,9 @@ Beside the FEL plot, two additional .txt files are generated after the analysis;
 ## Important notes
 
 This plugin is developed for 3 molecular dynamics simulation replicas of one protein system, which need to be loaded in VMD sequentially, with molecule IDs in order 1 - 3. If you have more simulation replicas with different molecule IDs, modify the global_fel_gui.tcl and fel_analysis.py script accordingly. The referent molecule has its molecule ID set at 0, so consider loading it first when starting the VMD, or change its molecule ID in mentioned .tcl and .py script.
+
+## Requirements
+
+Visual Molecular Dynamics (VMD) software from Theoretical and Computational Biophysics Group
+Python
+Python packages: numpy, pandas, scipy, scikit-learn and matplotlib
